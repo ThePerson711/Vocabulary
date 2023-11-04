@@ -19,7 +19,8 @@
     }
 
 .vocabulary_test_div {
-    background-color: rgba(86.67%,81.57%,78.43%, 1) ;
+    /* */
+    margin: 0;
 }
 
 .voc_test_question {
@@ -50,4 +51,3 @@
     color: rgb(101, 41, 152);
     background-color: rgb(83, 245, 234);
 }
-
