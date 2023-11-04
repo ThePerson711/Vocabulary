@@ -46,6 +46,7 @@ function TextVocINTOstr() {
 }   function f2() {
     String_text = localStorage.getItem('LocalStorageData');
 }
+
 // for knowing how many lines are there
 function CalNumLines() {
     i_1 = 0;
@@ -62,6 +63,7 @@ function CalNumLines() {
     NumOfLines = i_1;
     console.log('N.O.L: '+NumOfLines);
 }
+
 // for calculate 4 random for questions !
 function ChoiseRandomNum() {
     i_1=0;
@@ -81,6 +83,7 @@ function ChoiseRandomNum() {
         }
     }
 }
+
 
 function ForNumToStr() {
     for (let j_=1; j_<=4; j_++) {
@@ -118,6 +121,7 @@ function ForNumToStr() {
     }
 }
 
+
 function UpDateQuestions() {
     TrueAnswer = Math.floor(Math.random()*4) ;
     document.querySelector('.voc_test_question_p').innerHTML =
@@ -131,8 +135,6 @@ function UpDateQuestions() {
     localStorage.setItem('arENG_InLS', JSON.stringify(arENG));
     localStorage.setItem('arUZB_InLS', JSON.stringify(arUZB));
 } 
-
-
 
 
 function ClickedOptionForTest(choised_num) {

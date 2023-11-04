@@ -13,7 +13,7 @@ let TrueAnswer = 0;
 
 ChekingTheAnswer();
 UpDatePage();
-  
+
 // in that we chaked answer
 function ChekingTheAnswer() {
     TrueAnswer = JSON.parse(localStorage.getItem('TrueAnswer_InLS'));

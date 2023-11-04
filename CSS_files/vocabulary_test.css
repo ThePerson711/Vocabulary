@@ -1,26 +1,9 @@
-    @media (min-width: 768px) and (max-width: 1081px) {
-    
-    body {
-        background-color: rgba(86.67%,81.57%,78.43%, 1) ;
-    }
-    }
-    @media (max-width: 767px) {
-    
-        body {
-            background-color: black;
-        }
-    }
-    @media (min-width: 1082px) {
-    
-        body {
-            background-color: green;
-
-        }
-    }
+body {
+    background-color: rgba(86.67%,81.57%,78.43%, 1) ;
+}
 
 .vocabulary_test_div {
-    /* */
-    margin: 0;
+    background-color: rgba(86.67%,81.57%,78.43%, 1) ;
 }
 
 .voc_test_question {
