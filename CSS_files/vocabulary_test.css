@@ -1,3 +1,5 @@
+@media (min-width: 768px) and (max-width: 1081px) {
+    
 body {
     background-color: rgba(86.67%,81.57%,78.43%, 1) ;
 }
@@ -33,4 +35,6 @@ body {
     font-weight: bold;
     color: rgb(101, 41, 152);
     background-color: rgb(83, 245, 234);
+}
+
 }
