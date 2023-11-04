@@ -1,0 +1,47 @@
+body {
+    background-color: rgba(86.67%,81.57%,78.43%, 1) ;
+}
+
+.vocabulary_cheking_div {
+    background-color: rgba(86.67%,81.57%,78.43%, 1) ;
+}
+
+.voc_cheking_list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 140px;
+    margin-bottom: 68px;
+}
+.voc_cheking_list p {
+    font-size: 122px;
+    font-weight: bold;
+    margin: 42px 0;
+}
+
+.voc_chek_position {
+    color: rgb(52, 52, 239);
+}
+.in_correct {
+    color: rgb(250, 59, 59);
+}
+
+.voc_chek_eng_t, .voc_chek_uzb_t {
+    color: rgb(101, 41, 152);
+}
+
+.voc_cheking_button {
+    display: flex;
+    justify-content: center;
+}
+.voc_cheking_button button {
+    width: 520px;
+    height: 220px;
+    margin: 20px 0;
+    border: 6px solid green;
+    border-radius: 42px;
+    font-size: 136px;
+    font-weight: bold;
+    color: rgb(101, 41, 152);
+    background-color: rgb(83, 245, 234);
+}

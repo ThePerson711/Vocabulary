@@ -1,0 +1,36 @@
+body {
+    background-color: rgba(86.67%,81.57%,78.43%, 1) ;
+}
+
+.vocabulary_test_div {
+    background-color: rgba(86.67%,81.57%,78.43%, 1) ;
+}
+
+.voc_test_question {
+    display: flex;
+    justify-content: center;
+}
+.voc_test_question p {
+    font-size: 96px;
+    font-weight: bold;
+    margin: 42px 0;
+    color: rgb(101, 41, 152)
+}
+
+.voc_test_options {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 10px;
+}
+.voc_test_options button {
+    width: 560px;
+    height: 160px;
+    margin: 20px 0;
+    border: 6px solid green;
+    border-radius: 42px;
+    font-size: 42px;
+    font-weight: bold;
+    color: rgb(101, 41, 152);
+    background-color: rgb(83, 245, 234);
+}
